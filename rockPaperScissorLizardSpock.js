@@ -7,11 +7,8 @@ function rpsls(pl1,pl2){
       lizard:["spock","paper"],
       spock:["scissors","rock"]
     }
-    if(order[pl1].includes(pl2)){
-      return "Player 1 Won!"
-    }else if(order[pl2].includes(pl1)){
-      return "Player 2 Won!"
-    }else{
-      return 'Draw!'
-    } 
+    return order[pl1].includes(pl2)? "Player 1 Won!"
+    :order[pl2].includes(pl1)?"Player 2 Won!"
+    :'Draw!'
+    
   }
