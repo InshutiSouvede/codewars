@@ -1,0 +1,1 @@
+const squareSum = (numbers) => numbers.length>0?numbers.reduce((ac,cv)=>ac+cv**2,0):0;
