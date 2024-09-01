@@ -1,0 +1,1 @@
+const numberFormat = num => num.toLocaleString()
